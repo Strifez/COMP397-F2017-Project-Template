@@ -28,6 +28,7 @@ var scenes;
         Start.prototype.Start = function () {
             this._helloLabel = new objects.Label("Hello World!", "40px", "Consolas", "#000000", 320, 240, true);
             this._clickButton = new objects.Button(this._assetManager, "clickMeButton", 320, 340, true);
+            this.Main();
         };
         /**
          * Update elements in the scene

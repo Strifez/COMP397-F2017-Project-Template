@@ -16,9 +16,7 @@ var objects;
         // Public properties
         // Constructors
         function Scene() {
-            var _this = _super.call(this) || this;
-            _this.Start();
-            return _this;
+            return _super.call(this) || this;
         }
         // Private Methods
         // Public Methods
