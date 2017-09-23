@@ -39,10 +39,11 @@ var scenes;
          * Add elements in the Main Method
          */
         Start.prototype.Main = function () {
+            var _this = this;
             this.addChild(this._helloLabel);
             this.addChild(this._clickButton);
             this._clickButton.on("click", function () {
-                this._helloLabel.TextString = "GoodBye Cruel World";
+                _this._helloLabel.TextString = "GoodBye Cruel World";
             });
         };
         return Start;
